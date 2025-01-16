@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Adjust the color and opacity */
+        url('Netflix\ Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    margin: 2px 3px;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    font-family: Arial;
+}
+
+.sign-in-container{
+    width: 350px;
+    margin: 1px auto;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+input{
+    display: block;
+    width: 88%;
+    outline: white;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.btn-sign-in{
+    width: 100%;
+    background-color: red;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.btn-sign-in-code{
+    width: 100%;
+    background-color: red;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(72, 72, 72, 0.3);
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: Arial;
+    cursor: pointer;
+}
+.or{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: Arial;
+}
+
+.forgot{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    position: relative;
+    left: 108px;
+}
+
+#remember-me{
+    color: white;
+    margin: 0;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    right: 40px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#remember-me[type="checkbox"]{
+    accent-color: white;
+    width: 100px;
+}
+label{
+    position: relative;
+    bottom: 5px;
+    left: 25px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+p{
+    color: rgb(207, 207, 207);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+span{
+    color: gray;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.learn-more{
+    color: blue;
+    text-decoration: none;
+    font-family: Arial;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sign-up-now{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+}

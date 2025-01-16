@@ -1,0 +1,54 @@
+p{
+    background-color: red;
+    display: inline;
+}
+span{
+    background-color: blue;
+}
+/* h1{
+    background-color: pink;
+    display: none;
+} */
+
+/* .in{
+    display: inline; 
+    width: 100px;
+    margin-top: 200px;
+}
+
+.in-b{
+    display: inline-block;
+    width: 100px;
+    margin-top: 200px;
+} */
+
+.container{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: red;
+}
+
+.container, .content{
+    text-align: center;
+}
+
+#one1, .one{
+    color: red;
+    right: 100px;
+    visibility: hidden;
+}
+#two2, .two{
+    color: rgb(89, 0, 255);
+    right: 100px;
+}
+#three3, .three{
+    color: rgb(0, 255, 38);
+    right: 100px;
+}
+#four4, .four{
+    color: rgb(0, 204, 255);
+    right: 100px;
+}

@@ -1,0 +1,14 @@
+
+body{
+    background-color: rgb(117, 60, 169, 0.2);
+}
+#header{
+    color: rgb(0, 0, 141. 0.5q);
+    font-size: 20px;
+}
+
+#content{
+    background-color: red;
+    width: 50vw;
+    height: 100vh;
+}

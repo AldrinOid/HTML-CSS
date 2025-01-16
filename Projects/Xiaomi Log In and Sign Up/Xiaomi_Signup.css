@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.header{
+    padding: 20px;
+    
+}
+
+.left-side, h1{
+    display: inline-block;
+}
+
+.logo{
+    width: 80px;
+    height: 45px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(213, 213, 213);
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.right-side{
+    display: inline;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.right-side a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    margin: 0 15px;
+    transition: ease 0.3s;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.right-side a:hover{
+    color: orange;
+}
+
+.divider{
+    display: inline;
+    border: 1px solid rgb(39, 38, 38);
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.container-signin{
+    background-color: rgb(17, 17, 17);
+    box-sizing: border-box;
+    padding: 45px;
+    width: 480px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.sign-in, a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+.sign-up, a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in, .sign-up{
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-email{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+}
+
+.input-email[type=text]{
+    padding: 20px 25px;
+    color: white;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input-email::placeholder{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.input-password{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+}
+
+.input-password[type=password]{
+    padding: 20px 25px;
+    color: white;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input-password::placeholder{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.input-country{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+}
+
+.input-country[type=text]{
+    padding: 20px 25px;
+    color: white;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input-country::placeholder{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.input-re-password{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+}
+
+.input-re-password[type=password]{
+    padding: 20px 25px;
+    color: white;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.input-re-password::placeholder{
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+}
+
+.guideline-text, .guidelines{
+    margin-top: 5px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.checkbox-text{
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 16px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-checkbox[type=checkbox]{
+    margin-right: 4px;
+    background-color: gray;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.btn-next{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(255, 81, 0);
+    border-radius: 5px;
+    border-color:rgb(39, 39, 39);
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(felix-rottmann-nH1P-KRiBFw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: rgba(206, 206, 206, 0.879);
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    color: orangered;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navigation > a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+}
+
+.dropdown-one, .dropdown-two{
+    display: inline-block;
+    position: relative;
+}
+
+.btn-dropdown-one, .btn-dropdown-two{
+    font-size: 18px;
+    color: orangered;
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+    transition: ease-in-out 0.5s;
+}
+.btn-dropdown-one, .btn-dropdown-two, .navigation > a{
+    margin-left: 20px;
+}
+
+.dropdown-content-one, .dropdown-content-two{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    border-radius: 20px;
+    background-color: orangered;
+    width: 240px;
+    height: auto;
+}
+
+.dropdown-content-one > a, .dropdown-content-two > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+
+.dropdown-content-one > a:hover, .dropdown-content-two > a:hover {
+    background-color: black;
+    color: orangered;
+    border-radius: 20px;
+}
+
+.dropdown-one:hover .dropdown-content-one, .dropdown-two:hover .dropdown-content-two{
+    display: block;
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.582); 
+    text-align: center;
+    margin-top: 80px;
+}
+
+.sign-in-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sign-in .as{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.sign-in .as::before{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    top: 100%;
+    left: 0;
+    transition: ease 0.3s;
+}
+
+.sign-in .as:hover::before{
+    width: 100%;
+}
+
+.sign-up .as{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.sign-up .as::before{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    top: 100%;
+    left: 0;
+    transition: ease 0.3s;
+}
+
+.sign-up .as:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+

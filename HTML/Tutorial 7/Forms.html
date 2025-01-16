@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+        <body>
+            <form action="" target="_blank">
+
+                <!-- Text Field -->
+                <input type="text" placeholder="Full Name" required> 
+                <br>
+
+                <input type="email" placeholder="Email Address" required> 
+                <br>
+
+                <input type="password" placeholder="Password" required> <br>
+                <input type="number" placeholder="Numbers" step="5">
+                <br>
+
+                <input type="tel" placeholder="Contact No.">
+                <br>
+
+                <input type="search" placeholder="Search">
+                <br>
+
+                <input type="url" placeholder="URL">
+                <br>
+
+                <input type="date" value="2024-08-30" min="2023-01-01">
+                <br>
+                <br>
+
+                <!-- Date and Time -->
+                <input type="datetime-local">
+                <br>
+
+                <input type="month">
+                <br>
+
+                <input type="week">
+                <br>
+
+                <input type="time" value="13:00">
+                <br>
+                <br>
+
+                <!-- BUTTONS -->
+                <input type="file" accept="" multiple>
+                <br>
+
+                <input id="apple" type="checkbox" checked>
+                    <label for="apple">Apple</label> 
+                <br>
+                <input id="banana" type="checkbox" checked>
+                    <label for="banana">Banana</label>
+                <br>
+
+                <input id="python" name="answer" type="radio">
+                    <label for="python">Python</label>
+                <br>
+                <input id="java" name="answer" type="radio">
+                    <label for="java">Java</label>
+                <br>
+                <input id="c#" name="answer" type="radio">
+                    <label for="c#">C#</label>
+                <br>
+
+                <input type="button" value="Click Me">
+                <br>
+                
+                <input type="text">
+                <input type="reset">
+                <br>
+
+                <input type="submit">
+                <br>
+                <br>
+
+                <!-- Input Other Types -->
+                <input type="range" min="0" max="100" value="75">
+                <br>
+                <input type="color" value="#ffffff">
+                <br>
+                <input type="hidden">
+                <br>
+
+                <!-- Text Area -->
+                <textarea placeholder="Type Answer Here" required rows="5" cols="50"></textarea>
+                <br>
+                <br>
+
+                <!-- Select -->
+                <select name="programming">
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="C#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+                <br>
+                <br>
+                <select name="4th Year">
+                    <optgroup label="Names">
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Ables">Ables</option>
+                    </optgroup>
+                    <optgroup label="Course">
+                        <option value="BSCS">BSCS</option>
+                        <option value="BSN">BSN</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+
+                <!-- Label -->
+                <label for="Course">Choose Course</label>
+                <select id="Course" name="Course">
+                    <optgroup label="Names">
+                        <option value="BSCS">BSCS</option>
+                        <option value="BSIT">BSIT</option>
+                        <option value="BSN">BSN</option>
+                    </optgroup>
+                </select> 
+                <br>
+                <br>
+                <label for="Year">Choose Year Level</label>
+                <select name="Year" id="Year">
+                    <optgroup label="Year Level">
+                        <option value="1styear">1st Year</option>
+                        <option value="2ndyear">2nd Year</option>
+                        <option value="3rdyear">3rd Year</option>
+                        <option value="4thyear">4th Year</option>
+                    </optgroup>
+                </select>
+            </form>
+        </body>
+</html>

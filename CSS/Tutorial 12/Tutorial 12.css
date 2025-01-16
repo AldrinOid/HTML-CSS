@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(0, 166, 255);
+    padding: 0px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 2px 5px gold;
+}
+
+.container{
+    display: inline-block;
+}
+
+.name-logo{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -25px;
+    left: -10px;
+}
+
+.links-container{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 20px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    margin: 0px 15px;
+}
+
+.links:hover{
+    color: gold;
+    transition: 0.3s;
+}
+
+.button-link{
+    background-color: gold;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+.button-link:hover{
+    background-color: rgb(255, 255, 255);
+    color: gold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.5);
+}
+
+
+.main-container{
+    position: center;
+}
+
+.content{
+    text-align: center;
+}

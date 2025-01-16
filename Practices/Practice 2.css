@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container{
+    margin-top: 10%;
+    height: 500px;
+    display: flex;
+    /* kung ano yung position sa loob ng container */
+    justify-content: space-between; 
+
+    /* kung ano itsura ng mga item sa container. by default naka strech to */
+    align-items: center;
+
+    /* align-content and flex-wrap works together */
+    flex-wrap: wrap;
+    background-color: orange;
+}
+
+.flexbox-item{
+    width: 300px;
+    margin: 20px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.flexbox-item-1{
+    min-height: 200px;
+    flex-shrink: 0;
+}
+.flexbox-item-2{
+    min-height: 300px;
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+.flexbox-item-3{
+    min-height: 400px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+

@@ -1,0 +1,12 @@
+.comments{
+    background: red;
+}
+#header{
+    color: rgb(0, 0, 0);
+}
+.text-green{
+    color: green;
+}
+#footer{
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.this-is-div{
+    background-color: red;
+}
+
+.this-is-span{
+    background-color: blue;
+}
+
+/* You can change the height and width of display: inline-block */
+.this-is-another-span{
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    background-color: yellow;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Navigation 2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Landing Page</title>
+    </head>
+        <body>
+            <header class="header">
+                <div class="logo">
+                    <a href="" class="name">Logo</a>
+                </div>
+                <nav class="navigation">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">About Us</a>
+                </nav>
+                <a href="#" class="btn-get-started">Get Started</a>
+
+                <div class="toggle-icon-bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="dropdown-menu">
+                        <a class="a" href="#">Home</a>
+                        <a class="a" href="#">Services</a>
+                        <a class="a" href="#">Gallery</a>
+                        <a class="a" href="#">About Us</a>
+                        <a href="#" class="btn-get-starteds">Get Started</a>
+                </div>
+            </header>
+
+            <!-- JavaScript code -->
+            <script>
+                const toggleBtn = document.querySelector('.toggle-icon-bars')
+                const toggleBtnIcon = document.querySelector('.toggle-icon-bars i')
+                const dropDownMenu = document.querySelector('.dropdown-menu')
+
+                toggleBtn.onclick = function(){
+                    dropDownMenu.classList.toggle('open')
+                    const isOpen = dropDownMenu.classList.contains('open')  
+
+                    toggleBtnIcon.classList = isOpen ?  'fa-solid fa-square-xmark' : 'fa-solid fa-bars'
+                }
+            </script>
+        </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tables</title>
+
+        <style>
+            table,tr,th,td{
+                border-width: 2px;
+                border-color: rgb(255, 200, 0);
+                border-style: solid;
+            }
+            caption{
+                text-align: center;
+            }
+            tfoot{
+                background-color: blue;
+            }
+            thead{
+                background-color: red;
+            }
+        </style>
+    </head>
+        <body>
+            <table>
+                <caption>Student Info</caption>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Section</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mendoza, Luke Aldrin V</td>
+                        <td>BSCS</td>
+                        <td>4-Y1-1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ables, Jesserie Parale</td>
+                        <td>BSN</td>
+                        <td>4-Y1-1</td>
+                    </tr>
+                </tbody>
+            </table> <br>
+
+            <table>
+                <caption>1st Sem Grade</caption>
+                <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="3">Subjects</th>
+                </tr>
+
+                <tr>
+                    <td>C#</td>
+                    <td>Java</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Mendoza</td>
+                    <td>94</td>
+                    <td>96</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>Ables</td>
+                    <td>93</td>
+                    <td>97</td>
+                    <td>98</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Demo</td>
+                    </tr>
+                </tfoot>
+                
+            </table>
+        </body>
+</html>
